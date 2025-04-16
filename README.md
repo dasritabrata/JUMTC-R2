@@ -1,3 +1,13 @@
+to run the code:-
+
+```bash
+cd ritabrata_das
+```
+```bash
+python ritabrata_control.py
+``` 
+
+
 # Drone Simulator
 
 A WebSocket-based drone simulator that provides real-time telemetry data and simulates environmental conditions affecting drone flight.
