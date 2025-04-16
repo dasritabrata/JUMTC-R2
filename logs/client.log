@@ -1,0 +1,122 @@
+2025-04-14 23:52:09,049 - drone_simulator.client - INFO [client.py:321] - Starting Drone Client with server URI: ws://localhost:8765
+2025-04-14 23:52:09,049 - drone_simulator.client - INFO [client.py:24] - Drone client initialized with server URI: ws://localhost:8765
+2025-04-14 23:52:09,049 - drone_simulator.client - INFO [client.py:28] - Attempting to connect to ws://localhost:8765
+2025-04-14 23:52:09,455 - drone_simulator.client - INFO [client.py:45] - Connected successfully with ID: a7032500-6d58-488e-a906-96512ad8d796
+2025-04-14 23:52:09,455 - drone_simulator.client - INFO [client.py:46] - Server message: Welcome to the Drone Simulator! Send commands to control your drone.
+2025-04-14 23:52:09,455 - drone_simulator.client - INFO [client.py:140] - Starting interactive control
+2025-04-14 23:57:16,321 - drone_simulator.client - WARNING [client.py:200] - Invalid command format: command = {
+2025-04-14 23:57:16,322 - drone_simulator.client - WARNING [client.py:200] - Invalid command format:             "speed": 3,
+2025-04-14 23:57:16,326 - drone_simulator.client - WARNING [client.py:200] - Invalid command format:             "altitude": 10,
+2025-04-14 23:57:16,326 - drone_simulator.client - WARNING [client.py:200] - Invalid command format:             "movement": "fwd"
+2025-04-14 23:58:19,200 - drone_simulator.client - WARNING [client.py:200] - Invalid command format: speed:3
+2025-04-14 23:58:45,733 - drone_simulator.client - INFO [client.py:182] - Starting auto pilot mode
+2025-04-14 23:58:45,733 - drone_simulator.client - INFO [client.py:230] - Starting auto pilot sequence
+2025-04-14 23:58:45,734 - drone_simulator.client - INFO [client.py:249] - Auto pilot step 1/9: speed=2, altitude=0, movement=fwd
+2025-04-14 23:58:45,734 - drone_simulator.client - INFO [client.py:93] - Sending command #1: {'speed': 2, 'altitude': 0, 'movement': 'fwd'}
+2025-04-14 23:58:45,735 - drone_simulator.client - ERROR [client.py:131] - Connection closed while sending command: no close frame received or sent
+2025-04-14 23:58:45,735 - drone_simulator.client - WARNING [client.py:273] - Connection to server was closed during auto pilot
+2025-04-14 23:59:07,543 - drone_simulator.client - INFO [client.py:182] - Starting auto pilot mode
+2025-04-14 23:59:07,544 - drone_simulator.client - INFO [client.py:230] - Starting auto pilot sequence
+2025-04-14 23:59:07,544 - drone_simulator.client - INFO [client.py:249] - Auto pilot step 1/9: speed=2, altitude=0, movement=fwd
+2025-04-14 23:59:07,544 - drone_simulator.client - INFO [client.py:93] - Sending command #2: {'speed': 2, 'altitude': 0, 'movement': 'fwd'}
+2025-04-14 23:59:07,544 - drone_simulator.client - ERROR [client.py:131] - Connection closed while sending command: no close frame received or sent
+2025-04-14 23:59:07,544 - drone_simulator.client - WARNING [client.py:273] - Connection to server was closed during auto pilot
+2025-04-14 23:59:22,927 - drone_simulator.client - WARNING [client.py:200] - Invalid command format: status
+2025-04-14 23:59:33,087 - drone_simulator.client - INFO [client.py:188] - User requested ping
+2025-04-14 23:59:33,087 - drone_simulator.client - INFO [client.py:93] - Sending command #3: {'speed': 0, 'altitude': 0, 'movement': 'fwd'}
+2025-04-14 23:59:33,087 - drone_simulator.client - ERROR [client.py:131] - Connection closed while sending command: no close frame received or sent
+2025-04-14 23:59:33,087 - drone_simulator.client - WARNING [client.py:225] - Connection to server was closed
+2025-04-14 23:59:33,088 - drone_simulator.client - INFO [client.py:79] - Session summary - Duration: 444.0s, Commands sent: 3, Connection ID: a7032500-6d58-488e-a906-96512ad8d796
+2025-04-15 00:01:13,228 - drone_simulator.client - INFO [client.py:321] - Starting Drone Client with server URI: ws://localhost:8765
+2025-04-15 00:01:13,228 - drone_simulator.client - INFO [client.py:24] - Drone client initialized with server URI: ws://localhost:8765
+2025-04-15 00:01:13,228 - drone_simulator.client - INFO [client.py:28] - Attempting to connect to ws://localhost:8765
+2025-04-15 00:01:13,248 - drone_simulator.client - INFO [client.py:45] - Connected successfully with ID: 5c7d60b2-1218-47f4-8a99-d2a05b88f891
+2025-04-15 00:01:13,248 - drone_simulator.client - INFO [client.py:46] - Server message: Welcome to the Drone Simulator! Send commands to control your drone.
+2025-04-15 00:01:13,248 - drone_simulator.client - INFO [client.py:140] - Starting interactive control
+2025-04-15 00:01:17,095 - drone_simulator.client - INFO [client.py:182] - Starting auto pilot mode
+2025-04-15 00:01:17,095 - drone_simulator.client - INFO [client.py:230] - Starting auto pilot sequence
+2025-04-15 00:01:17,095 - drone_simulator.client - INFO [client.py:249] - Auto pilot step 1/9: speed=2, altitude=0, movement=fwd
+2025-04-15 00:01:17,096 - drone_simulator.client - INFO [client.py:93] - Sending command #1: {'speed': 2, 'altitude': 0, 'movement': 'fwd'}
+2025-04-15 00:01:18,099 - drone_simulator.client - INFO [client.py:249] - Auto pilot step 2/9: speed=3, altitude=1, movement=fwd
+2025-04-15 00:01:18,100 - drone_simulator.client - INFO [client.py:93] - Sending command #2: {'speed': 3, 'altitude': 1, 'movement': 'fwd'}
+2025-04-15 00:01:19,103 - drone_simulator.client - INFO [client.py:249] - Auto pilot step 3/9: speed=4, altitude=2, movement=fwd
+2025-04-15 00:01:19,104 - drone_simulator.client - INFO [client.py:93] - Sending command #3: {'speed': 4, 'altitude': 2, 'movement': 'fwd'}
+2025-04-15 00:01:20,107 - drone_simulator.client - INFO [client.py:249] - Auto pilot step 4/9: speed=5, altitude=0, movement=fwd
+2025-04-15 00:01:20,107 - drone_simulator.client - INFO [client.py:93] - Sending command #4: {'speed': 5, 'altitude': 0, 'movement': 'fwd'}
+2025-04-15 00:01:21,111 - drone_simulator.client - INFO [client.py:249] - Auto pilot step 5/9: speed=3, altitude=-1, movement=fwd
+2025-04-15 00:01:21,111 - drone_simulator.client - INFO [client.py:93] - Sending command #5: {'speed': 3, 'altitude': -1, 'movement': 'fwd'}
+2025-04-15 00:01:22,116 - drone_simulator.client - INFO [client.py:249] - Auto pilot step 6/9: speed=2, altitude=0, movement=rev
+2025-04-15 00:01:22,116 - drone_simulator.client - INFO [client.py:93] - Sending command #6: {'speed': 2, 'altitude': 0, 'movement': 'rev'}
+2025-04-15 00:01:23,120 - drone_simulator.client - INFO [client.py:249] - Auto pilot step 7/9: speed=3, altitude=0, movement=rev
+2025-04-15 00:01:23,121 - drone_simulator.client - INFO [client.py:93] - Sending command #7: {'speed': 3, 'altitude': 0, 'movement': 'rev'}
+2025-04-15 00:01:24,125 - drone_simulator.client - INFO [client.py:249] - Auto pilot step 8/9: speed=1, altitude=1, movement=fwd
+2025-04-15 00:01:24,125 - drone_simulator.client - INFO [client.py:93] - Sending command #8: {'speed': 1, 'altitude': 1, 'movement': 'fwd'}
+2025-04-15 00:01:25,129 - drone_simulator.client - INFO [client.py:249] - Auto pilot step 9/9: speed=0, altitude=0, movement=fwd
+2025-04-15 00:01:25,130 - drone_simulator.client - INFO [client.py:93] - Sending command #9: {'speed': 0, 'altitude': 0, 'movement': 'fwd'}
+2025-04-15 00:01:26,133 - drone_simulator.client - INFO [client.py:265] - Auto pilot sequence completed successfully
+2025-04-15 00:02:22,441 - drone_simulator.client - WARNING [client.py:218] - Invalid input format: invalid literal for int() with base 10: "{'speed': 1"
+2025-04-15 00:02:34,612 - drone_simulator.client - INFO [client.py:182] - Starting auto pilot mode
+2025-04-15 00:02:34,613 - drone_simulator.client - INFO [client.py:230] - Starting auto pilot sequence
+2025-04-15 00:02:34,613 - drone_simulator.client - INFO [client.py:249] - Auto pilot step 1/9: speed=2, altitude=0, movement=fwd
+2025-04-15 00:02:34,613 - drone_simulator.client - INFO [client.py:93] - Sending command #10: {'speed': 2, 'altitude': 0, 'movement': 'fwd'}
+2025-04-15 00:02:34,614 - drone_simulator.client - ERROR [client.py:131] - Connection closed while sending command: received 1011 (internal error) Ping timeout; then sent 1011 (internal error) Ping timeout
+2025-04-15 00:02:34,614 - drone_simulator.client - WARNING [client.py:273] - Connection to server was closed during auto pilot
+2025-04-15 00:02:43,248 - drone_simulator.client - WARNING [client.py:200] - Invalid command format: python drone_simulator/client.py
+2025-04-15 00:02:43,742 - drone_simulator.client - WARNING [client.py:200] - Invalid command format: 
+2025-04-15 00:02:55,546 - drone_simulator.client - INFO [client.py:182] - Starting auto pilot mode
+2025-04-15 00:02:55,546 - drone_simulator.client - INFO [client.py:230] - Starting auto pilot sequence
+2025-04-15 00:02:55,546 - drone_simulator.client - INFO [client.py:249] - Auto pilot step 1/9: speed=2, altitude=0, movement=fwd
+2025-04-15 00:02:55,546 - drone_simulator.client - INFO [client.py:93] - Sending command #11: {'speed': 2, 'altitude': 0, 'movement': 'fwd'}
+2025-04-15 00:02:55,547 - drone_simulator.client - ERROR [client.py:131] - Connection closed while sending command: received 1011 (internal error) Ping timeout; then sent 1011 (internal error) Ping timeout
+2025-04-15 00:02:55,547 - drone_simulator.client - WARNING [client.py:273] - Connection to server was closed during auto pilot
+2025-04-15 00:03:29,984 - drone_simulator.client - INFO [client.py:182] - Starting auto pilot mode
+2025-04-15 00:03:29,984 - drone_simulator.client - INFO [client.py:230] - Starting auto pilot sequence
+2025-04-15 00:03:29,984 - drone_simulator.client - INFO [client.py:249] - Auto pilot step 1/9: speed=2, altitude=0, movement=fwd
+2025-04-15 00:03:29,984 - drone_simulator.client - INFO [client.py:93] - Sending command #12: {'speed': 2, 'altitude': 0, 'movement': 'fwd'}
+2025-04-15 00:03:29,985 - drone_simulator.client - ERROR [client.py:131] - Connection closed while sending command: received 1011 (internal error) Ping timeout; then sent 1011 (internal error) Ping timeout
+2025-04-15 00:03:29,985 - drone_simulator.client - WARNING [client.py:273] - Connection to server was closed during auto pilot
+2025-04-15 00:04:21,093 - drone_simulator.client - INFO [client.py:188] - User requested ping
+2025-04-15 00:04:21,093 - drone_simulator.client - INFO [client.py:93] - Sending command #13: {'speed': 0, 'altitude': 0, 'movement': 'fwd'}
+2025-04-15 00:04:21,094 - drone_simulator.client - ERROR [client.py:131] - Connection closed while sending command: received 1011 (internal error) Ping timeout; then sent 1011 (internal error) Ping timeout
+2025-04-15 00:04:21,094 - drone_simulator.client - WARNING [client.py:225] - Connection to server was closed
+2025-04-15 00:04:21,094 - drone_simulator.client - INFO [client.py:79] - Session summary - Duration: 187.9s, Commands sent: 13, Connection ID: 5c7d60b2-1218-47f4-8a99-d2a05b88f891
+2025-04-15 00:04:54,539 - drone_simulator.client - INFO [client.py:321] - Starting Drone Client with server URI: ws://localhost:8765
+2025-04-15 00:04:54,539 - drone_simulator.client - INFO [client.py:24] - Drone client initialized with server URI: ws://localhost:8765
+2025-04-15 00:04:54,540 - drone_simulator.client - INFO [client.py:28] - Attempting to connect to ws://localhost:8765
+2025-04-15 00:04:54,559 - drone_simulator.client - INFO [client.py:45] - Connected successfully with ID: 5745ecee-9e97-4c3e-b48d-27be1c07d179
+2025-04-15 00:04:54,559 - drone_simulator.client - INFO [client.py:46] - Server message: Welcome to the Drone Simulator! Send commands to control your drone.
+2025-04-15 00:04:54,559 - drone_simulator.client - INFO [client.py:140] - Starting interactive control
+2025-04-15 00:06:10,419 - drone_simulator.client - WARNING [client.py:218] - Invalid input format: invalid literal for int() with base 10: '{"speed": 5'
+2025-04-15 00:06:39,011 - drone_simulator.client - WARNING [client.py:218] - Invalid input format: invalid literal for int() with base 10: "'2"
+2025-04-15 00:06:57,874 - drone_simulator.client - INFO [client.py:93] - Sending command #1: {'speed': 2, 'altitude': 0, 'movement': 'fwd'}
+2025-04-15 00:06:57,875 - drone_simulator.client - ERROR [client.py:131] - Connection closed while sending command: no close frame received or sent
+2025-04-15 00:06:57,875 - drone_simulator.client - WARNING [client.py:225] - Connection to server was closed
+2025-04-15 00:06:57,875 - drone_simulator.client - INFO [client.py:79] - Session summary - Duration: 123.3s, Commands sent: 1, Connection ID: 5745ecee-9e97-4c3e-b48d-27be1c07d179
+2025-04-15 00:08:17,897 - drone_simulator.client - INFO [client.py:321] - Starting Drone Client with server URI: ws://localhost:8765
+2025-04-15 00:08:17,897 - drone_simulator.client - INFO [client.py:24] - Drone client initialized with server URI: ws://localhost:8765
+2025-04-15 00:08:17,898 - drone_simulator.client - INFO [client.py:28] - Attempting to connect to ws://localhost:8765
+2025-04-15 00:08:17,917 - drone_simulator.client - INFO [client.py:45] - Connected successfully with ID: ec92f7bb-f362-4e4e-90d1-11bffe48ebec
+2025-04-15 00:08:17,917 - drone_simulator.client - INFO [client.py:46] - Server message: Welcome to the Drone Simulator! Send commands to control your drone.
+2025-04-15 00:08:17,917 - drone_simulator.client - INFO [client.py:140] - Starting interactive control
+2025-04-15 00:08:28,020 - drone_simulator.client - INFO [client.py:93] - Sending command #1: {'speed': 2, 'altitude': 10, 'movement': 'fwd'}
+2025-04-15 00:08:28,024 - drone_simulator.client - ERROR [client.py:131] - Connection closed while sending command: received 1011 (internal error) Ping timeout; then sent 1011 (internal error) Ping timeout
+2025-04-15 00:08:28,024 - drone_simulator.client - WARNING [client.py:225] - Connection to server was closed
+2025-04-15 00:08:28,024 - drone_simulator.client - INFO [client.py:79] - Session summary - Duration: 10.1s, Commands sent: 1, Connection ID: ec92f7bb-f362-4e4e-90d1-11bffe48ebec
+2025-04-15 00:09:10,329 - drone_simulator.client - INFO [client.py:321] - Starting Drone Client with server URI: ws://localhost:8765
+2025-04-15 00:09:10,329 - drone_simulator.client - INFO [client.py:24] - Drone client initialized with server URI: ws://localhost:8765
+2025-04-15 00:09:10,329 - drone_simulator.client - INFO [client.py:28] - Attempting to connect to ws://localhost:8765
+2025-04-15 00:09:10,348 - drone_simulator.client - INFO [client.py:45] - Connected successfully with ID: 875f9ab5-7b43-4718-b3c4-9c1230abf7f2
+2025-04-15 00:09:10,349 - drone_simulator.client - INFO [client.py:46] - Server message: Welcome to the Drone Simulator! Send commands to control your drone.
+2025-04-15 00:09:10,349 - drone_simulator.client - INFO [client.py:140] - Starting interactive control
+2025-04-15 00:09:17,169 - drone_simulator.client - INFO [client.py:182] - Starting auto pilot mode
+2025-04-15 00:09:17,170 - drone_simulator.client - INFO [client.py:230] - Starting auto pilot sequence
+2025-04-15 00:09:17,170 - drone_simulator.client - INFO [client.py:249] - Auto pilot step 1/9: speed=2, altitude=0, movement=fwd
+2025-04-15 00:09:17,170 - drone_simulator.client - INFO [client.py:93] - Sending command #1: {'speed': 2, 'altitude': 0, 'movement': 'fwd'}
+2025-04-15 00:09:17,173 - drone_simulator.client - ERROR [client.py:131] - Connection closed while sending command: received 1011 (internal error) Ping timeout; then sent 1011 (internal error) Ping timeout
+2025-04-15 00:09:17,173 - drone_simulator.client - WARNING [client.py:273] - Connection to server was closed during auto pilot
+2025-04-15 00:30:37,983 - drone_simulator.client - INFO [client.py:321] - Starting Drone Client with server URI: ws://localhost:8765
+2025-04-15 00:30:37,983 - drone_simulator.client - INFO [client.py:24] - Drone client initialized with server URI: ws://localhost:8765
+2025-04-15 00:30:37,983 - drone_simulator.client - INFO [client.py:28] - Attempting to connect to ws://localhost:8765
+2025-04-15 00:30:38,002 - drone_simulator.client - INFO [client.py:45] - Connected successfully with ID: c741eb53-10b3-4622-9e18-2c9e8c74239d
+2025-04-15 00:30:38,002 - drone_simulator.client - INFO [client.py:46] - Server message: Welcome to the Drone Simulator! Send commands to control your drone.
+2025-04-15 00:30:38,002 - drone_simulator.client - INFO [client.py:140] - Starting interactive control

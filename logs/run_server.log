@@ -1,0 +1,78 @@
+2025-04-14 23:48:55,809 - drone_simulator.run_server - INFO [run_server.py:34] - Starting Drone Simulator Server on 0.0.0.0:8765
+2025-04-14 23:48:55,809 - drone_simulator.run_server - INFO [run_server.py:35] - Admin server will run on 0.0.0.0:8766
+2025-04-14 23:48:55,809 - drone_simulator.run_server - INFO [run_server.py:36] - Process ID: 3597
+2025-04-14 23:48:55,809 - drone_simulator.run_server - INFO [run_server.py:37] - Python version: 3.13.2 (main, Feb  4 2025, 14:51:09) [Clang 16.0.0 (clang-1600.0.26.6)]
+2025-04-14 23:48:55,809 - drone_simulator.run_server - INFO [run_server.py:38] - Current directory: /Users/ritabratadas/D_DRIVE/Software_R2
+2025-04-15 00:23:53,940 - drone_simulator.run_server - INFO [run_server.py:34] - Starting Drone Simulator Server on 0.0.0.0:8765
+2025-04-15 00:23:53,940 - drone_simulator.run_server - INFO [run_server.py:35] - Admin server will run on 0.0.0.0:8766
+2025-04-15 00:23:53,940 - drone_simulator.run_server - INFO [run_server.py:36] - Process ID: 4828
+2025-04-15 00:23:53,940 - drone_simulator.run_server - INFO [run_server.py:37] - Python version: 3.13.2 (main, Feb  4 2025, 14:51:09) [Clang 16.0.0 (clang-1600.0.26.6)]
+2025-04-15 00:23:53,940 - drone_simulator.run_server - INFO [run_server.py:38] - Current directory: /Users/ritabratadas/D_DRIVE/Software_R2
+2025-04-15 00:30:26,111 - drone_simulator.run_server - INFO [run_server.py:34] - Starting Drone Simulator Server on 0.0.0.0:8765
+2025-04-15 00:30:26,112 - drone_simulator.run_server - INFO [run_server.py:35] - Admin server will run on 0.0.0.0:8766
+2025-04-15 00:30:26,112 - drone_simulator.run_server - INFO [run_server.py:36] - Process ID: 5094
+2025-04-15 00:30:26,112 - drone_simulator.run_server - INFO [run_server.py:37] - Python version: 3.13.2 (main, Feb  4 2025, 14:51:09) [Clang 16.0.0 (clang-1600.0.26.6)]
+2025-04-15 00:30:26,112 - drone_simulator.run_server - INFO [run_server.py:38] - Current directory: /Users/ritabratadas/D_DRIVE/Software_R2
+2025-04-15 12:00:08,594 - drone_simulator.run_server - INFO [run_server.py:34] - Starting Drone Simulator Server on 0.0.0.0:8765
+2025-04-15 12:00:08,594 - drone_simulator.run_server - INFO [run_server.py:35] - Admin server will run on 0.0.0.0:8766
+2025-04-15 12:00:08,594 - drone_simulator.run_server - INFO [run_server.py:36] - Process ID: 1365
+2025-04-15 12:00:08,594 - drone_simulator.run_server - INFO [run_server.py:37] - Python version: 3.13.2 (main, Feb  4 2025, 14:51:09) [Clang 16.0.0 (clang-1600.0.26.6)]
+2025-04-15 12:00:08,594 - drone_simulator.run_server - INFO [run_server.py:38] - Current directory: /Users/ritabratadas/D_DRIVE/Software_R2
+2025-04-15 13:05:41,404 - drone_simulator.run_server - INFO [run_server.py:34] - Starting Drone Simulator Server on 0.0.0.0:8765
+2025-04-15 13:05:41,404 - drone_simulator.run_server - INFO [run_server.py:35] - Admin server will run on 0.0.0.0:8766
+2025-04-15 13:05:41,404 - drone_simulator.run_server - INFO [run_server.py:36] - Process ID: 2986
+2025-04-15 13:05:41,404 - drone_simulator.run_server - INFO [run_server.py:37] - Python version: 3.13.2 (main, Feb  4 2025, 14:51:09) [Clang 16.0.0 (clang-1600.0.26.6)]
+2025-04-15 13:05:41,404 - drone_simulator.run_server - INFO [run_server.py:38] - Current directory: /Users/ritabratadas/D_DRIVE/Software_R2
+2025-04-15 13:05:41,405 - drone_simulator.run_server - CRITICAL [run_server.py:70] - Server crashed: [Errno 48] error while attempting to bind on address ('0.0.0.0', 8765): [errno 48] address already in use
+Traceback (most recent call last):
+  File "/Users/ritabratadas/D_DRIVE/Software_R2/drone_simulator/run_server.py", line 64, in main
+    asyncio.run(run_servers())
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.2/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.2/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.2/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/base_events.py", line 725, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/Users/ritabratadas/D_DRIVE/Software_R2/drone_simulator/run_server.py", line 52, in run_servers
+    await asyncio.gather(main_task, admin_task)
+  File "/Users/ritabratadas/D_DRIVE/Software_R2/drone_simulator/server.py", line 326, in start_server
+    server = await websockets.serve(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/opt/homebrew/lib/python3.13/site-packages/websockets/asyncio/server.py", line 831, in __await_impl__
+    server = await self.create_server
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.2/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/base_events.py", line 1622, in create_server
+    raise OSError(err.errno, msg) from None
+OSError: [Errno 48] error while attempting to bind on address ('0.0.0.0', 8765): [errno 48] address already in use
+2025-04-15 13:07:20,548 - drone_simulator.run_server - INFO [run_server.py:34] - Starting Drone Simulator Server on 0.0.0.0:8765
+2025-04-15 13:07:20,549 - drone_simulator.run_server - INFO [run_server.py:35] - Admin server will run on 0.0.0.0:8766
+2025-04-15 13:07:20,549 - drone_simulator.run_server - INFO [run_server.py:36] - Process ID: 3032
+2025-04-15 13:07:20,549 - drone_simulator.run_server - INFO [run_server.py:37] - Python version: 3.13.2 (main, Feb  4 2025, 14:51:09) [Clang 16.0.0 (clang-1600.0.26.6)]
+2025-04-15 13:07:20,549 - drone_simulator.run_server - INFO [run_server.py:38] - Current directory: /Users/ritabratadas/D_DRIVE/Software_R2
+2025-04-15 13:11:56,189 - drone_simulator.run_server - INFO [run_server.py:34] - Starting Drone Simulator Server on 0.0.0.0:8765
+2025-04-15 13:11:56,189 - drone_simulator.run_server - INFO [run_server.py:35] - Admin server will run on 0.0.0.0:8766
+2025-04-15 13:11:56,189 - drone_simulator.run_server - INFO [run_server.py:36] - Process ID: 3198
+2025-04-15 13:11:56,189 - drone_simulator.run_server - INFO [run_server.py:37] - Python version: 3.13.2 (main, Feb  4 2025, 14:51:09) [Clang 16.0.0 (clang-1600.0.26.6)]
+2025-04-15 13:11:56,189 - drone_simulator.run_server - INFO [run_server.py:38] - Current directory: /Users/ritabratadas/D_DRIVE/Software_R2
+2025-04-15 17:25:41,479 - drone_simulator.run_server - INFO [run_server.py:34] - Starting Drone Simulator Server on 0.0.0.0:8765
+2025-04-15 17:25:41,479 - drone_simulator.run_server - INFO [run_server.py:35] - Admin server will run on 0.0.0.0:8766
+2025-04-15 17:25:41,480 - drone_simulator.run_server - INFO [run_server.py:36] - Process ID: 1152
+2025-04-15 17:25:41,480 - drone_simulator.run_server - INFO [run_server.py:37] - Python version: 3.13.2 (main, Feb  4 2025, 14:51:09) [Clang 16.0.0 (clang-1600.0.26.6)]
+2025-04-15 17:25:41,480 - drone_simulator.run_server - INFO [run_server.py:38] - Current directory: /Users/ritabratadas/D_DRIVE/Software_R2
+2025-04-16 19:02:42,055 - drone_simulator.run_server - INFO [run_server.py:34] - Starting Drone Simulator Server on 0.0.0.0:8765
+2025-04-16 19:02:42,055 - drone_simulator.run_server - INFO [run_server.py:35] - Admin server will run on 0.0.0.0:8766
+2025-04-16 19:02:42,055 - drone_simulator.run_server - INFO [run_server.py:36] - Process ID: 1431
+2025-04-16 19:02:42,055 - drone_simulator.run_server - INFO [run_server.py:37] - Python version: 3.13.2 (main, Feb  4 2025, 14:51:09) [Clang 16.0.0 (clang-1600.0.26.6)]
+2025-04-16 19:02:42,055 - drone_simulator.run_server - INFO [run_server.py:38] - Current directory: /Users/ritabratadas/D_DRIVE/Software_R2
+2025-04-16 22:36:11,149 - drone_simulator.run_server - INFO [run_server.py:34] - Starting Drone Simulator Server on 0.0.0.0:8765
+2025-04-16 22:36:11,149 - drone_simulator.run_server - INFO [run_server.py:35] - Admin server will run on 0.0.0.0:8766
+2025-04-16 22:36:11,149 - drone_simulator.run_server - INFO [run_server.py:36] - Process ID: 1285
+2025-04-16 22:36:11,149 - drone_simulator.run_server - INFO [run_server.py:37] - Python version: 3.13.2 (main, Feb  4 2025, 14:51:09) [Clang 16.0.0 (clang-1600.0.26.6)]
+2025-04-16 22:36:11,149 - drone_simulator.run_server - INFO [run_server.py:38] - Current directory: /Users/ritabratadas/D_DRIVE/Software_R2
